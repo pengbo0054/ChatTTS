@@ -125,7 +125,7 @@ class Chat:
         self,
         source: Literal["huggingface", "local", "custom"] = "local",
         force_redownload=False,
-        compile: bool = True,
+        compile: bool = False,
         custom_path: Optional[torch.serialization.FILE_LIKE] = None,
         device: Optional[torch.device] = None,
         coef: Optional[torch.Tensor] = None,
